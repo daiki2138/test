@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Contact</title>
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/layout.css">
+<link rel="stylesheet" href="css/contact.css">
+</head>
+<body oncontextmenu="return false;">
+<div id="wrapper">
+	<p class="btn-gnavi">
+		<span></span>
+		<span></span>
+		<span></span>
+	</p>
+	<nav id="global-navi">
+		<ul class="menu">
+			<li><a href="index.html">TOP</a></li>
+			<li><a href="">NEWS</a></li>
+            <li><a href="download.html">DOWNLOAD</a></li>
+			<li><a href="contact.html">CONTACT</a></li>
+		</ul>
+	</nav>
+    <div id="contact">
+        <h1>お問い合わせ</h1>
+        <label>emailアドレス:</label><input class="email" type="text" placeholder="xxx@yyy.com" required><br><br>
+        <label>名前:</label><input class="name" type="text" placeholder="名前" required><br><br>
+        <label>要件:</label><input class="requirements" type="text" placeholder="要件" required><br><br>
+        <p>内容</p><textarea name="Contents" rows="4" cols="40" required></textarea><br><br>
+        <button value="button" id="btn" onclick="sousin">送信</button>
+    </div>
+</div>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script src="js/contact.js"></script>
+</body>
+</html>
