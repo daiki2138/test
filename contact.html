@@ -5,13 +5,9 @@
 <meta name="viewport" content="width=device-width">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>Contact</title>
-<link rel="icon" href="images/sample.ico">
 <link rel="stylesheet" href="css/reset.css">
 <link rel="stylesheet" href="css/layout.css">
 <link rel="stylesheet" href="css/contact.css">
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1824950498650495"
-     crossorigin="anonymous"></script>
-<script data-ad-client="ca-pub-1824950498650495" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 </head>
 <body oncontextmenu="return false;">
 <div id="wrapper">
@@ -30,11 +26,18 @@
 	</nav>
     <div id="contact">
         <h1>お問い合わせ</h1>
-        <label>emailアドレス:</label><input class="email" type="text" placeholder="xxx@yyy.com" required><br><br>
-        <label>名前:</label><input class="name" type="text" placeholder="名前" required><br><br>
-        <label>要件:</label><input class="requirements" type="text" placeholder="要件" required><br><br>
-        <p>内容</p><textarea name="Contents" rows="4" cols="40" required></textarea><br><br>
-        <button value="button" id="btn" onclick="sousin">送信</button>
+        <form action="https://api.staticforms.xyz/submit" method="post">
+          <label>名前:</label><input type="text" name="name" placeholder="名前"><br><br>
+          <label>emailアドレス:</label><input type="text" name="email" placeholder="xxx@yyy.com"><br><br>
+          <p>内容</p><textarea name="message"></textarea><br><br>
+          <input type="text" name="honeypot" style="display:none">
+          <input type="hidden" name="accessKey" value="cf3558a4-70ce-41d4-9cd2-6ab16d8be0d4">
+          <input type="hidden" name="subject" value="Contact us from - example.com">
+          <input type="hidden" name="replyTo" value="@">
+          <input type="hidden" name="redirectTo" value="https://example.com/contact/success">
+          <input type="submit" value="送信">
+            
+</form>
     </div>
 </div>
 <script src="js/jquery-3.3.1.min.js"></script>
