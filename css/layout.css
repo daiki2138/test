@@ -10,7 +10,9 @@
     box-sizing: border-box;
     z-index: 2
 }
-
+iframe{
+    padding-left: 120px;
+}
 #wrapper nav ul li {
     padding: 20px 28px
 }
