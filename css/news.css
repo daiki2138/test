@@ -6,3 +6,6 @@ h1{
 .contents{
     text-align: center;
 }
+.contents li{
+    margin-top: 20px;
+}
