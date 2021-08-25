@@ -125,13 +125,14 @@ iframe{
     background-image: url(../images/img03.jpg)
 }
 .footer {
-  height: 120px;
+  height: 70px;
   background-color: #2f3a44;
   color: #e8e8e8;
   padding-top: 20px;
 }
 .footer-left {
   float: left;
+  padding-left: 10px;
 }
 .footer-right {
   float: right;
