@@ -124,8 +124,8 @@ iframe{
 #wrapper .contents section#section03 {
     background-image: url(../images/img03.jpg)
 }
-.fotter-left{
-    float:left;
+.fotter-rigtht{
+    float:rigtht;
 }
 @media (max-width: 1024px){
     .main-visual{
