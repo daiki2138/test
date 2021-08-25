@@ -124,3 +124,6 @@ iframe{
 #wrapper .contents section#section03 {
     background-image: url(../images/img03.jpg)
 }
+.fotter-left{
+    float:left;
+}
