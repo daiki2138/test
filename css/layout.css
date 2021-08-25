@@ -124,8 +124,21 @@ iframe{
 #wrapper .contents section#section03 {
     background-image: url(../images/img03.jpg)
 }
-.fotter-rigtht{
-    float:rigtht;
+.footer {
+  height: 120px;
+  background-color: #2f3a44;
+  color: #e8e8e8;
+  padding-top: 20px;
+}
+.footer-left {
+  float: left;
+}
+.footer-right {
+  float: right;
+  padding-top: 50px;
+}
+.footer-left p {
+  margin-bottom: 8px;
 }
 @media (max-width: 1024px){
     .main-visual{
