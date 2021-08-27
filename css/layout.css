@@ -132,7 +132,7 @@ iframe{
 }
 .footer-left {
   float: left;
-  padding-left: 50px;
+  padding-left: 30px;
 }
 .footer-right {
   float: right;
@@ -140,6 +140,7 @@ iframe{
   padding-right: 10px;
 }
 .footer-left p {
+    padding-left: 20px;
   margin-bottom: 8px;
 }
 @media (max-width: 1024px){
