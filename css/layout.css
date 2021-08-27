@@ -143,6 +143,9 @@ iframe{
     padding-left: 20px;
   margin-bottom: 8px;
 }
+.ad a{
+    margin-left: 20px;
+}
 @media (max-width: 1024px){
     .main-visual{
         padding-top: 120px;
