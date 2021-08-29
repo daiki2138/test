@@ -12,3 +12,6 @@ body{
 .contents li{
     margin-top: 20px;
 }
+table{
+    background-color: transparent;
+}
